@@ -165,4 +165,4 @@ def test_import_rejects_http(client):
 
 - [Development Setup](development-setup.md)
 - [Contributing](contributing.md)
-- [CI workflow](https://github.com/heyshreee/chatvault-ai/blob/main/.github/workflows/ci.yml)
+- [CI workflow](https://github.com/makitdev/chatvault-ai/blob/main/.github/workflows/ci.yml)

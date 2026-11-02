@@ -8,11 +8,11 @@ Contributions should preserve the properties that make ChatVault AI useful:
 - Imported conversation content is treated as untrusted data.
 
 By participating, you agree to follow the
-[Code of Conduct](https://github.com/heyshreee/chatvault-ai/blob/main/CODE_OF_CONDUCT.md).
+[Code of Conduct](https://github.com/makitdev/chatvault-ai/blob/main/CODE_OF_CONDUCT.md).
 
 ## Before you start
 
-- Search existing [issues](https://github.com/heyshreee/chatvault-ai/issues)
+- Search existing [issues](https://github.com/makitdev/chatvault-ai/issues)
   before opening a new one.
 - For security problems, do not open a public issue. Follow
   [Privacy and Security](../concepts/privacy-and-security.md).
@@ -108,9 +108,16 @@ A good pull request:
 - Avoids unrelated formatting churn.
 
 Open pull requests against `main` on
-[heyshreee/chatvault-ai](https://github.com/heyshreee/chatvault-ai). The
-`makitdev/chatvault-ai` repository is the upstream project; maintainers may
-forward changes there.
+[makitdev/chatvault-ai](https://github.com/makitdev/chatvault-ai).
+
+## Contributors
+
+ChatVault AI is maintained by the **[makitdev](https://github.com/makitdev)** organization and contributors:
+
+- **makitdev** ([@makitdev](https://github.com/makitdev)) — Organization home
+- **heyshreee** ([@heyshreee](https://github.com/heyshreee)) — Maintainer & Core Developer
+- **SriRamFevenz** ([@SriRamFevenz](https://github.com/SriRamFevenz)) — Contributor
+- Team members: `@AlwinRiyas`, `@chandrua138`, `@jawahar-linx30`, `@RVtamilan`, `@saranrajbr`
 
 ## Reporting bugs
 
@@ -128,7 +135,7 @@ contents.
 ## License
 
 By contributing, you agree that your contributions are licensed under the
-[GNU General Public License v3.0](https://github.com/heyshreee/chatvault-ai/blob/main/LICENSE).
+[GNU General Public License v3.0](https://github.com/makitdev/chatvault-ai/blob/main/LICENSE).
 
 ## Related pages
 

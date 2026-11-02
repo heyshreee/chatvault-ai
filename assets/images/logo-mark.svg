@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="cv-mark-title">
+  <title id="cv-mark-title">ChatVault AI</title>
+  <rect width="64" height="64" rx="14" fill="#0A1626"/>
+  <rect x="1" y="1" width="62" height="62" rx="13" fill="none" stroke="#22D3EE" stroke-opacity="0.35"/>
+  <circle cx="32" cy="34" r="16.5" fill="none" stroke="#22D3EE" stroke-width="2.5"/>
+  <circle cx="32" cy="34" r="10.5" fill="none" stroke="#14B8A6" stroke-width="2"/>
+  <circle cx="32" cy="34" r="4" fill="#22D3EE"/>
+  <path d="M32 23.5v5.2M32 39.3v5.2M21.5 34h5.2M37.3 34h5.2" stroke="#22D3EE" stroke-width="2" stroke-linecap="round"/>
+  <path d="M18 20.5c0-3 2.4-5.5 5.5-5.5h17c3.1 0 5.5 2.5 5.5 5.5v9.8c0 3-2.4 5.4-5.5 5.4H30.8l-6.9 5.1c-1 .7-2.4 0-2.4-1.2v-4.5c-2.1-.6-3.5-2.5-3.5-4.8v-9.8Z" fill="#0A1626" stroke="#14B8A6" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M25.5 23.8h13M25.5 28.2h8.5" stroke="#67E8F9" stroke-width="2" stroke-linecap="round"/>
+</svg>

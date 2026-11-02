@@ -3,7 +3,7 @@
 The Dashboard is the landing page at `/`. It summarizes the local workspace and
 the health of the derived vector index.
 
-![ChatVault AI demo](https://heyshreee.github.io/chatvault-ai/assets/demo.gif)
+![ChatVault AI demo](../assets/demo.gif)
 
 ## Metrics
 

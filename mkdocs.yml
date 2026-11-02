@@ -2,12 +2,12 @@ site_name: ChatVault AI
 site_description: >-
   Local-first ChatGPT conversation vault with SQLite storage, PDF/DOCX export,
   Ollama embeddings, ChromaDB retrieval, and cited AI chat.
-site_url: !ENV [DOCS_SITE_URL, "https://heyshreee.github.io/chatvault-ai/"]
-site_author: ChatVault AI contributors
-copyright: Copyright &copy; 2026 ChatVault AI &middot; GPL-3.0
+site_url: !ENV [DOCS_SITE_URL, "https://makitdev.github.io/chatvault-ai/"]
+site_author: makitdev & ChatVault AI contributors
+copyright: Copyright &copy; 2026 makitdev &middot; GPL-3.0
 
-repo_url: !ENV [DOCS_REPO_URL, "https://github.com/heyshreee/chatvault-ai"]
-repo_name: !ENV [DOCS_REPO_NAME, "heyshreee/chatvault-ai"]
+repo_url: !ENV [DOCS_REPO_URL, "https://github.com/makitdev/chatvault-ai"]
+repo_name: !ENV [DOCS_REPO_NAME, "makitdev/chatvault-ai"]
 edit_uri: edit/main/docs/
 
 theme:

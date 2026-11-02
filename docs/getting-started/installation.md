@@ -6,13 +6,6 @@ repository root unless a step says otherwise.
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/heyshreee/chatvault-ai.git
-cd chatvault-ai
-```
-
-To work against the upstream project:
-
-```bash
 git clone https://github.com/makitdev/chatvault-ai.git
 cd chatvault-ai
 ```

@@ -12,7 +12,7 @@ retrieval-augmented chat that cites its sources.
 
 [Get started](getting-started/index.md){ .md-button .md-button--primary }
 [Quickstart](getting-started/quickstart.md){ .md-button }
-[GitHub repository](https://github.com/heyshreee/chatvault-ai){ .md-button }
+[GitHub repository](https://github.com/makitdev/chatvault-ai){ .md-button }
 
 </div>
 
@@ -175,14 +175,28 @@ constraints are in [Configuration](getting-started/configuration.md).
 | Call the REST API | [API Reference](api-reference/overview.md) |
 | Contribute or release | [Development](development/project-structure.md) |
 
+## Contributors
+
+ChatVault AI is developed and maintained by the **[makitdev](https://github.com/makitdev)** organization and contributors:
+
+| Contributor | GitHub | Role |
+| :--- | :--- | :--- |
+| **makitdev** | [@makitdev](https://github.com/makitdev) | Organization / Project Home |
+| **heyshreee** | [@heyshreee](https://github.com/heyshreee) | Maintainer & Core Developer |
+| **SriRamFevenz** | [@SriRamFevenz](https://github.com/SriRamFevenz) | Contributor |
+| **AlwinRiyas** | [@AlwinRiyas](https://github.com/AlwinRiyas) | makitdev Team |
+| **chandrua138** | [@chandrua138](https://github.com/chandrua138) | makitdev Team |
+| **jawahar-linx30** | [@jawahar-linx30](https://github.com/jawahar-linx30) | makitdev Team |
+| **RVtamilan** | [@RVtamilan](https://github.com/RVtamilan) | makitdev Team |
+| **saranrajbr** | [@saranrajbr](https://github.com/saranrajbr) | makitdev Team |
+
 ## Project links
 
-- [GitHub repository](https://github.com/heyshreee/chatvault-ai)
-- [Upstream repository](https://github.com/makitdev/chatvault-ai)
-- [Issue tracker](https://github.com/heyshreee/chatvault-ai/issues)
+- [GitHub repository](https://github.com/makitdev/chatvault-ai)
+- [Issue tracker](https://github.com/makitdev/chatvault-ai/issues)
 - [Contributing guide](development/contributing.md)
 - [Security policy](concepts/privacy-and-security.md)
 - [Release notes v1.0.0](releases/v1.0.0.md)
 
 ChatVault AI is licensed under the
-[GNU General Public License v3.0](https://github.com/heyshreee/chatvault-ai/blob/main/LICENSE).
+[GNU General Public License v3.0](https://github.com/makitdev/chatvault-ai/blob/main/LICENSE).

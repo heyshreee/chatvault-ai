@@ -158,11 +158,11 @@ mostly lower-bounded, except ChromaDB, which is pinned to `1.5.9`.
 Do not open a public issue for a security problem. Use GitHub Security
 Advisories:
 
-<https://github.com/heyshreee/chatvault-ai/security/advisories/new>
+<https://github.com/makitdev/chatvault-ai/security/advisories/new>
 
 Include the affected version, impact, reproduction steps, and any preconditions.
 Do not include private conversation content or secrets in the first message.
-See the repository's [SECURITY.md](https://github.com/heyshreee/chatvault-ai/blob/main/SECURITY.md)
+See the repository's [SECURITY.md](https://github.com/makitdev/chatvault-ai/blob/main/SECURITY.md)
 for the full policy.
 
 ## Hardening checklist
