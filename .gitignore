@@ -35,6 +35,9 @@ dist/
 .ruff_cache/
 .mypy_cache/
 
+# Demo/video build artifacts
+brag-output-*/
+
 # IDE
 .vscode/
 .idea/
