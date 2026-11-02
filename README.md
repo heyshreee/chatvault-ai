@@ -21,7 +21,7 @@ conversation text is sent to a hosted model.
 ## Demo
 
 <p align="center">
-  <img src="docs/assets/demo.gif" alt="ChatVault AI demo: import a public ChatGPT share link, ask a cited question, and export the conversation as PDF or DOCX" width="880" />
+  <img src="assets/demo.gif" alt="ChatVault AI demo: import a public ChatGPT share link, ask a cited question, and export the conversation as PDF or DOCX" width="880" />
 </p>
 
 Import a public ChatGPT share link, index it locally, ask a question with cited
