@@ -10,3 +10,6 @@ site/
 chatvault_ai.egg-info/
 brag-output-*/
 dist/
+.agents/
+.taste-skill/
+skills-lock.json
