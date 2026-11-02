@@ -1,0 +1,146 @@
+site_name: ChatVault AI
+site_description: >-
+  Local-first ChatGPT conversation vault with SQLite storage, PDF/DOCX export,
+  Ollama embeddings, ChromaDB retrieval, and cited AI chat.
+site_url: !ENV [DOCS_SITE_URL, "https://heyshreee.github.io/chatvault-ai/"]
+site_author: ChatVault AI contributors
+copyright: Copyright &copy; 2026 ChatVault AI &middot; GPL-3.0
+
+repo_url: !ENV [DOCS_REPO_URL, "https://github.com/heyshreee/chatvault-ai"]
+repo_name: !ENV [DOCS_REPO_NAME, "heyshreee/chatvault-ai"]
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  logo: assets/images/logo-mark.svg
+  favicon: assets/images/favicon.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - toc.follow
+    - header.autohide
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+
+extra:
+  generator: false
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Overview: getting-started/index.md
+      - Requirements: getting-started/requirements.md
+      - Installation: getting-started/installation.md
+      - Configuration: getting-started/configuration.md
+      - Quickstart: getting-started/quickstart.md
+  - User Guide:
+      - Dashboard: user-guide/dashboard.md
+      - Importing Conversations: user-guide/importing-conversations.md
+      - Library Management: user-guide/library-management.md
+      - AI Chat: user-guide/ai-chat.md
+      - Search and Retrieval: user-guide/search-and-retrieval.md
+      - Export: user-guide/export.md
+      - Settings: user-guide/settings.md
+  - Guides:
+      - Ollama Setup: guides/ollama-setup.md
+      - Model Configuration: guides/model-configuration.md
+      - Importing ChatGPT URLs: guides/importing-chatgpt-urls.md
+      - Document Processing: guides/document-processing.md
+      - Troubleshooting: guides/troubleshooting.md
+      - Backup and Restore: guides/backup-and-restore.md
+  - Concepts:
+      - Architecture: concepts/architecture.md
+      - Data Flow: concepts/data-flow.md
+      - RAG Explained: concepts/rag-explained.md
+      - Embeddings: concepts/embeddings.md
+      - Vector Search: concepts/vector-search.md
+      - Local-First Design: concepts/local-first-design.md
+      - Privacy and Security: concepts/privacy-and-security.md
+  - API Reference:
+      - Overview: api-reference/overview.md
+      - Health: api-reference/health.md
+      - Import: api-reference/import.md
+      - Conversations: api-reference/conversations.md
+      - Library: api-reference/library.md
+      - Export: api-reference/export.md
+      - Indexing: api-reference/indexing.md
+      - Search: api-reference/search.md
+      - Chat: api-reference/chat.md
+      - System: api-reference/system.md
+      - Errors: api-reference/errors.md
+  - Development:
+      - Project Structure: development/project-structure.md
+      - Development Setup: development/development-setup.md
+      - Testing: development/testing.md
+      - Contributing: development/contributing.md
+      - Release Process: development/release-process.md
+  - Project:
+      - Changelog: changelog.md
+      - Release Notes v1.0.0: releases/v1.0.0.md

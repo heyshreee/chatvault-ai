@@ -31,6 +31,10 @@ htmlcov/
 build/
 dist/
 
+# Documentation build
+site/
+.docs-venv/
+
 # Tool caches
 .ruff_cache/
 .mypy_cache/
